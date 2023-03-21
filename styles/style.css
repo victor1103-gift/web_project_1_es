@@ -245,8 +245,10 @@ min-height: 100px;
 
 .cell__theme-dark {
   width: 200px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  left: 124px;
 }
 
 .heading__theme-dark {
