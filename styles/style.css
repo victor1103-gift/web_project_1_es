@@ -213,6 +213,7 @@ min-height: 100px;
   position: relative;
   background-color: black;
   display: grid;
+  padding-bottom: 100px;
 }
 
 .kaufman__triangle {
