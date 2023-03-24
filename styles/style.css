@@ -220,7 +220,7 @@ min-height: 100px;
   position: absolute;
   width: 660px;
   height: 636px;
-  right: -124px;
+  right: -1px;
   
 
 }
@@ -297,6 +297,7 @@ min-height: 100px;
 .footer__column {
   display: flex;
   flex-direction: column;
+
 }
 .footer__column-content_copyright {
 flex-basis: 711px;
