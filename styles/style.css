@@ -42,15 +42,14 @@ body {
   width: 730px;
   font-size: 120px;
   line-height: 96px;
-  font-weight: bold;
- 
+  font-weight: bold; 
  }
 
 .header__subtitle {
   left: 64px;
   width: 388px;
   position: absolute;
-  bottom: 30px;  
+  bottom: 30px; 
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -80,7 +79,6 @@ body {
 
 .description {
   display: flex;
- ;
 }
 
 .two-columns {
@@ -95,14 +93,12 @@ min-height: 100px;
   width: 175px;
   font-size: 18px;
   font-weight: normal;
-  
   color: #2F80ED;
   }
 
   .two-columns__main-text {
     width: 80%;
-    min-width: 784px;
-    
+    min-width: 784px;    
   }
 
 .two-columns__Paragraph {
@@ -120,8 +116,6 @@ min-height: 100px;
   justify-content: center;
   margin-bottom: 100px;
   }
-
-
   
   .section__title {
     display: flex;
@@ -139,7 +133,6 @@ min-height: 100px;
     font-size: 24px;
     font-weight: normal;
     }
-
 
   .table {
       list-style: none;
@@ -167,46 +160,31 @@ min-height: 100px;
 }
 
 .feynman {
-  display: flex;
   height: 790px;
-  align-items: flex-end;
 }
 
-.feynman__title__subtitle {
-  display: flex;
-  flex-direction: column;
-
-}
 
 .feynman__title {
   width: 775px;
   margin-top: 100px;
-  height: 70px;
-  margin-bottom: 70px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  position: absolute;
-  margin-left: 30%;
 }
 
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  position: absolute;
-  
-  
   }
 
 .feynman__link {
   text-decoration: none;
-    justify-content: flex-end;
-    margin-left: 395px;
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
-    position: absolute;
+    position: relative;
+    right: -1480px;
 }
 
 .kaufman {
@@ -221,9 +199,8 @@ min-height: 100px;
   width: 660px;
   height: 636px;
   right: -1px;
-  
-
 }
+
 .table__theme-dark {
   list-style: none;
       width: 1100px;
@@ -270,7 +247,6 @@ min-height: 100px;
   font-size: 24px;
   font-weight: bold;
   color: #F2F2F2;
-
 }
 
 .text__theme-dark {
@@ -297,8 +273,8 @@ min-height: 100px;
 .footer__column {
   display: flex;
   flex-direction: column;
-
 }
+
 .footer__column-content_copyright {
 flex-basis: 711px;
 list-style: none;
