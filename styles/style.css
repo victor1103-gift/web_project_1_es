@@ -26,17 +26,11 @@ body {
   background-color: #2F80ED;
   top: 64px;
   right: 0;
+  transition: transform 20s ease-out;
 }
-
-
 .header__square:hover {
   transform: rotate(360deg);
 }
-
-.header__square {
-  transition: transform 20s ease-out;
-} 
-
 .header__main-illustration {
   position: absolute;
   bottom: 0;
@@ -45,7 +39,6 @@ body {
   height: 608px;
   z-index: 2;
 }
-
 .header__title {
   margin-left: 64px;
   width: 730px;
@@ -323,14 +316,11 @@ font-weight: normal;
   width: 660px;
   height: 636px;
   right: -1px;
+  transition: transform 20s ease-in-out;
 }
 .kaufman__triangle:hover {
   transform: rotate(360deg);
 }
-
-.kaufman__triangle {
-  transition: transform 20s ease-in-out;
-} 
 
 .table__theme-dark {
   list-style: none;
