@@ -137,7 +137,7 @@ margin-right: auto;
   list-style: none;
 }
 
-.card__image {
+.card__item-image {
   width: 160px;
   height: 160px;
   margin-top: 60px;
@@ -147,7 +147,7 @@ margin-right: auto;
   border-radius: 50%;
 }
 
-.card__title {
+.card__item-title {
 margin-bottom: 16px;
 line-height: 1.5;
 font-size: 24px;
