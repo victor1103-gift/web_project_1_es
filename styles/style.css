@@ -164,7 +164,12 @@ font-weight: normal;
   justify-content: center;
   margin-right: 20px;
 }
-
+.video__iframes-you {
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+  border: 0;
+}
 .feynman {
   height: 790px;
 }
