@@ -137,7 +137,7 @@ margin-right: auto;
   list-style: none;
 }
 
-.card__item-image {
+.cards__image {
   width: 160px;
   height: 160px;
   margin-top: 60px;
@@ -147,14 +147,14 @@ margin-right: auto;
   border-radius: 50%;
 }
 
-.card__item-title {
+.cards__title {
 margin-bottom: 16px;
 line-height: 1.5;
 font-size: 24px;
 font-weight: bold;
 }
 
-.card__description  {
+.cards__description  {
 line-height: 23px;
 font-size: 18px;
 font-weight: normal;
