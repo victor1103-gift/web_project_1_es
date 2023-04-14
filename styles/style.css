@@ -123,16 +123,18 @@ margin-right: auto;
 }
 .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
-.cards__item{
-  width: 920px;
-  margin-left: 100px;
-  margin-right: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.cards__item {
+  margin-left: 40px;
+  margin-right: 40px;
+  list-style: none;
 }
 
 .card__image {
@@ -388,6 +390,7 @@ font-weight: normal;
   width: 270px;
   height: 38px;
 }
+
 .footer {
   display: flex;
   min-height: 350px;
