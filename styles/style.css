@@ -463,7 +463,7 @@ font-weight: normal;
 }
 
 
-.footer__columns-content_copyright {
+.footer__columns-content-copyright {
 flex-basis: 711px;
 list-style: none;
 position: relative;
@@ -471,7 +471,7 @@ bottom: -70px;
 right: -10px;
 }
 
-.footer__column_content_social {
+.footer__column-content-social {
 row-gap: 20px;
 list-style: none;
 }
