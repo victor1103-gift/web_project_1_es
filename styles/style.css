@@ -471,8 +471,9 @@ bottom: -70px;
 right: -10px;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
 row-gap: 20px;
+list-style: none;
 }
 .logo_place_footer {
   width: 183px;
