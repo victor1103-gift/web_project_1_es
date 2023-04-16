@@ -461,7 +461,10 @@ font-weight: normal;
   margin-left: auto;
   margin-right: auto;
 }
-
+.footer__column-link {
+  color: white;
+  list-style: none;
+}
 
 .footer__columns-content-copyright {
 flex-basis: 711px;
