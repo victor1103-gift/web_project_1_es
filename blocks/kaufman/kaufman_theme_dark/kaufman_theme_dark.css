@@ -1,0 +1,59 @@
+.kaufman__table-theme-dark {
+    list-style: none;
+        width: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+  }
+  .kaufman__table-cell_theme_dark {
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .kaufman__title-theme-dark {
+    margin-bottom: 20px;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    color: #F2F2F2;
+    position: relative;
+    justify-content: center;
+  
+  }
+  
+  .kaufman__subtitle-theme-dark {
+    width: 60%;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .kaufman__cell-theme-dark {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    left: 124px;
+  }
+  
+  .kaufman__heading-theme-dark {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F2F2F2;
+  }
+  
+  .kaufman__text-theme-dark {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #F2F2F2;
+  }

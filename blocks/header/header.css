@@ -1,0 +1,66 @@
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+
+}
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F2F2F2;
+  }
+  
+  .header__square {
+    height: 568px;
+    width: 568px;
+    position: absolute;
+    background-color: #2F80ED;
+    top: 64px;
+    right: 0;
+    transition: transform 20s ease-out;
+      -webkit-animation: 20s rotate linear infinite;
+      animation: 20s rotate linear infinite;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+  }
+  .header__square:hover {
+    transform: rotate(360deg);
+    
+  }
+  .header__main-illustration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 756px;
+    height: 608px;
+    z-index: 2;
+  }
+  .header__title {
+    margin-left: 64px;
+    width: 730px;
+    font-size: 120px;
+    line-height: 96px;
+    font-weight: bold;
+    z-index: 1;
+   }
+  
+  .header__subtitle {
+    left: 64px;
+    width: 388px;
+    position: absolute;
+    bottom: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    z-index: 2;
+  }
+  
+  .header__link {
+    color: #2F80ED;
+    text-decoration: none;
+  }

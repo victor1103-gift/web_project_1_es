@@ -1,0 +1,22 @@
+.kaufman {
+    position: relative;
+    background-color: black;
+    display: grid;
+    padding-bottom: 100px;
+  }
+  
+  .kaufman__triangle {
+    position: absolute;
+    width: 660px;
+    height: 636px;
+    right: -1px;
+    transition: transform 20s ease-in-out;
+    -webkit-animation: 20s rotate linear infinite;
+    animation: 20s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    z-index: index;
+  }
+  .kaufman__triangle:hover {
+    transform: rotate(360deg);
+  }

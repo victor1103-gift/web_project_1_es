@@ -1,0 +1,11 @@
+.video__iframes {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  .video__iframes-you {
+    width: 515px;
+    height: 316px;
+    margin-right: 20px;
+    border: 0;
+  }

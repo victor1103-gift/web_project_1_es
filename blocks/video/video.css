@@ -1,0 +1,15 @@
+
+.video__section-title {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  .video__section-subtitle {
+    display: flex;
+    justify-content: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    }
